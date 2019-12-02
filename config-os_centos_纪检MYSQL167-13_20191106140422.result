@@ -1,0 +1,1462 @@
+topic_name=config
+so_type_id=6246
+so_type_code=OS_CENTOS
+checkitem_count=44-0#
+so_information=CSSC_IP_ADDRESS#%fc1976946dc44d71aa85bdbd671181c4%
+so_information=CSSC_MAC_ADDRESS#%fc1976946dc44d71aa85bdbd671181c4%
+so_information=DEVICE_NAME#%46d7c3157c7b43358098bb7cf33b0d3a%
+so_information=IDENTIFIER#%da80d051e9024a57b68d5a48e2280e24%
+so_information=IP#%fc1976946dc44d71aa85bdbd671181c4%0f6586e0cad142ce8f76e4e01bdebd6c%
+so_information=KERNEL#%e4be178f49d841c2893bca1907150cd5%
+so_information=SYSTIME#%2bed99ae9c164817aa6097d84ba5f62e%
+so_information=USERLIST#%ec8c6d350e42456ca21eb367e3b1acb0%
+so_information=VERSION#%7fb1982fd1f14399922d89e350067023%
+so_command_definition=%0f6586e0cad142ce8f76e4e01bdebd6c%
+so_command_definition=%2bed99ae9c164817aa6097d84ba5f62e%
+so_command_definition=%46d7c3157c7b43358098bb7cf33b0d3a%
+so_command_definition=%7fb1982fd1f14399922d89e350067023%
+so_command_definition=%da80d051e9024a57b68d5a48e2280e24%
+so_command_definition=%ec8c6d350e42456ca21eb367e3b1acb0%
+so_command_definition=%e4be178f49d841c2893bca1907150cd5%
+so_command_definition=%fc1976946dc44d71aa85bdbd671181c4%
+%0f6586e0cad142ce8f76e4e01bdebd6c%
+#bms-prompt# ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether fa:16:3e:77:b1:7f brd ff:ff:ff:ff:ff:ff
+    inet 192.168.67.13/20 brd 192.168.79.255 scope global noprefixroute dynamic eth0
+       valid_lft 78364sec preferred_lft 78364sec
+    inet6 fe80::f816:3eff:fe77:b17f/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+%0f6586e0cad142ce8f76e4e01bdebd6c%
+%2bed99ae9c164817aa6097d84ba5f62e%
+#bms-prompt# ls -l --full-time /root/install.log
+%2bed99ae9c164817aa6097d84ba5f62e%
+%46d7c3157c7b43358098bb7cf33b0d3a%
+ls: 无法访问/root/install.log: 没有那个文件或目�
+#bms-prompt# hostname
+host-192-168-67-13
+%46d7c3157c7b43358098bb7cf33b0d3a%
+%7fb1982fd1f14399922d89e350067023%
+#bms-prompt# lsb_release -a
+%7fb1982fd1f14399922d89e350067023%
+%da80d051e9024a57b68d5a48e2280e24%
+-bash: lsb_release: 未找到命�
+#bms-prompt# dmidecode | grep 'Serial Number'
+        Serial Number: 24345546-4c99-43ba-9ae5-5dcd5bf3fccf
+        Serial Number: Not Specified
+%da80d051e9024a57b68d5a48e2280e24%
+%ec8c6d350e42456ca21eb367e3b1acb0%
+#bms-prompt# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
+systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:997:995:User for polkitd:/:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+mysql:x:27:27:MySQL Server:/var/lib/mysql:/bin/false
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+xxhxmb:x:1000:1000::/home/xxhxmb:/bin/bash
+%ec8c6d350e42456ca21eb367e3b1acb0%
+%e4be178f49d841c2893bca1907150cd5%
+#bms-prompt# uname -r
+3.10.0-957.21.3.el7.x86_64
+%e4be178f49d841c2893bca1907150cd5%
+%fc1976946dc44d71aa85bdbd671181c4%
+#bms-prompt# ifconfig -a
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.67.13  netmask 255.255.240.0  broadcast 192.168.79.255
+        inet6 fe80::f816:3eff:fe77:b17f  prefixlen 64  scopeid 0x20<link>
+        ether fa:16:3e:77:b1:7f  txqueuelen 1000  (Ethernet)
+        RX packets 226979557  bytes 29121867192 (27.1 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 89527916  bytes 30438858082 (28.3 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 3085  bytes 2391914 (2.2 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3085  bytes 2391914 (2.2 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+%fc1976946dc44d71aa85bdbd671181c4%
+%,#@,%user_input_ip%,#@,%
+192.168.67.13
+%,#@,%user_input_ip%,#@,%
+pk_checkitem=%0a839ecb2f1446dcaf1855c30b0cca55%
+pk_checkitem=%b91aba4dd207497db2f2e39a47182a64%
+pk_checkitem=%a74c03495280488ca223b2c60bea3484%
+pk_checkitem=%e46eb73e6c154314923ee2a2b46c76b8%
+pk_checkitem=%4299dfe04c2d41bcb1e307e86d42de9d%
+pk_checkitem=%77aabcaacbe84c8c8e6b3e1f7c280ce1%
+pk_checkitem=%69b747ca8a45454c9c272f02d97f06b7%
+pk_checkitem=%8db29a01dbe940cf8de1e2ad8553c068%b58cac0f97984abc9939d9a8c10ac005%69ab6ff6a1ea4e4392b94cfd37eeff46%47c5cad73bcb44fdaa651b8e1610e11d%
+pk_checkitem=%c94a137ac42a4255a8345654c21d6509%
+pk_checkitem=%d9c2740e1ada43f5b173f79cc9224066%
+pk_checkitem=%9505ef7fef04443ba964925829a20de8%
+pk_checkitem=%ebafca02f6b949be899178122758cfcb%
+pk_checkitem=%ed18c9481cff4b49a8618fe435717b72%
+pk_checkitem=%d1c7cccc697d4fffb8f66b32f9d30ea6%
+pk_checkitem=%e4cf2931205d4407bd0f3675031bba11%
+pk_checkitem=%c4889ccde9944c32b5fec8976df4e6ee%
+pk_checkitem=%468fab7d52f94e188b1e0367e50077e7%
+pk_checkitem=%4833e44485c649bc971e6612e3c818a5%
+pk_checkitem=%c49c975562df4a0ba75600a5b8de86ad%
+pk_checkitem=%1f37a0eb3dd5455ca205bd6df7b31e86%
+pk_checkitem=%60102f638cf446c0a2194243eeae50c1%
+pk_checkitem=%7d08ca29c2264b6b937739cdc9330cf7%
+pk_checkitem=%708b8209c9c64754ac8309846ec29a78%
+pk_checkitem=%a1800b0adfd847b185eff813fa8da772%2bd4084354b44917b989b0d623343ddb%
+pk_checkitem=%c380db4932b341289d3caa33b800a82e%
+pk_checkitem=%bd02bd8725f443fd9d6704aa0ae1370d%
+pk_checkitem=%f1d422bf9fcb40deb62f69c56a5a0d9d%
+pk_checkitem=%5d66f74e726c4a26a8573cababd75260%dc93b51e2edb4a9fbb908d86a7d0998f%9bb5d731a63d4023a4dc15b9be47046b%
+pk_checkitem=%1108a6da360648b9a112ccc22d9e10cb%
+pk_checkitem=%fa94e86169494cffb0ae97198f916e2d%
+pk_checkitem=%c6b9af000d304f73810057505164eb5a%
+pk_checkitem=%553c2414dbea40339369a4066a363636%
+pk_checkitem=%db03bb4c3f614ccc838f173afdd8f6fa%
+pk_checkitem=%3f657340a877490a9a6bd31b8e7fa7a0%1a526f6dc82f43e887a0bc066de025c6%8218aa49cb304c4398e913641bf6d628%
+pk_checkitem=%11c41ae335af46c3a4e57f91c7754383%
+pk_checkitem=%b0136b7e2e464075804eb6dc7e336749%
+%0a839ecb2f1446dcaf1855c30b0cca55%
+#bms-prompt# LANG=c;
+#bms-prompt# find /usr/bin -type f \( -perm -04000 -o -perm -02000 \) -exec ls -lg {} \;
+-r-xr-sr-x. 1 tty 15344 Jun 10  2014 /usr/bin/wall
+-rwsr-xr-x. 1 root 32208 Mar 14  2019 /usr/bin/su
+-rwsr-xr-x. 1 root 64328 Mar 14  2019 /usr/bin/chage
+-rwsr-xr-x. 1 root 78272 Mar 14  2019 /usr/bin/gpasswd
+-rwsr-xr-x. 1 root 41872 Mar 14  2019 /usr/bin/newgrp
+-rwxr-sr-x. 1 tty 19624 Mar 14  2019 /usr/bin/write
+-rws--x--x. 1 root 24048 Mar 14  2019 /usr/bin/chfn
+-rws--x--x. 1 root 23960 Mar 14  2019 /usr/bin/chsh
+-rwsr-xr-x. 1 root 44320 Mar 14  2019 /usr/bin/mount
+---s--x--x. 1 root 147392 Oct 31  2018 /usr/bin/sudo
+-rwsr-xr-x. 1 root 32048 Mar 14  2019 /usr/bin/umount
+---s--x---. 1 stapusr 207952 Nov  1  2018 /usr/bin/staprun
+-rwsr-xr-x. 1 root 23656 Mar  8  2019 /usr/bin/pkexec
+-rwsr-xr-x. 1 root 57664 Nov 20  2018 /usr/bin/crontab
+-rwsr-xr-x. 1 root 27832 Jun 10  2014 /usr/bin/passwd
+#bms-prompt# echo "result="`find /usr/bin -type f \( -perm -04000 -o -perm -02000 \) -exec ls -lg {} \;|wc -l`;
+result=15
+%0a839ecb2f1446dcaf1855c30b0cca55%
+%b91aba4dd207497db2f2e39a47182a64%
+#bms-prompt# LANG=C
+#bms-prompt# runlevel
+N 3
+#bms-prompt# chkconfig --list
+
+Note: This output shows SysV services only and does not include native
+      systemd services. SysV configuration data might be overridden by native
+      systemd configuration.
+
+      If you want to list systemd services use 'systemctl list-unit-files'.
+      To see services enabled on particular target use
+      'systemctl list-dependencies [target]'.
+
+netconsole      0:off   1:off   2:off   3:off   4:off   5:off   6:off
+network         0:off   1:off   2:on    3:on    4:on    5:on    6:off
+sshd            0:off   1:off   2:on    3:on    4:on    5:on    6:off
+uvp-monitor     0:off   1:off   2:on    3:on    4:on    5:on    6:off
+%b91aba4dd207497db2f2e39a47182a64%
+%a74c03495280488ca223b2c60bea3484%
+#bms-prompt# #!/bin/bash
+#bms-prompt# ntpstatus=`ps -ef|grep ntp|grep -v grep|wc -l`
+#bms-prompt# chronystatus=`ps -ef|grep chronyd|grep -v grep|wc -l`
+#bms-prompt# if [ $ntpstatus != 0 ];
+> 
+>     then grep "^server" /etc/ntp.conf|grep -v "127.127.1.0";
+> 
+>   echo "ntpserverno="`grep "^server" /etc/ntp.conf|grep -v "127.127.1.0"|wc -l`;
+> 
+>     else crontab -l|grep -v "^#"|grep ntp;
+> 
+>   echo "ntpserverno="`crontab -l|grep -v "^#"|grep ntp|wc -l`;
+> 
+> fi
+server 0.centos.pool.ntp.org iburst
+server 1.centos.pool.ntp.org iburst
+server 2.centos.pool.ntp.org iburst
+server 3.centos.pool.ntp.org iburst
+ntpserverno=4
+#bms-prompt# if [ $chronystatus != 0 ];
+> 
+>     then grep "^server" /etc/chrony.conf|grep -v "127.127.1.0";
+> 
+>   echo "ntpserverno="`grep "^server" /etc/chrony.conf|grep -v "127.127.1.0"|wc -l`;
+> 
+> fi
+#bms-prompt# unset ntpstatus chronystatus;
+%a74c03495280488ca223b2c60bea3484%
+%e46eb73e6c154314923ee2a2b46c76b8%
+#bms-prompt# netstat -antup |grep -i -e 'listen' -e 'udp'
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      96756/sshd          
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      1907/master         
+tcp6       0      0 :::3306                 :::*                    LISTEN      94764/mysqld        
+tcp6       0      0 :::22                   :::*                    LISTEN      96756/sshd          
+tcp6       0      0 ::1:25                  :::*                    LISTEN      1907/master         
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           1359/dhclient       
+udp        0      0 192.168.67.13:123       0.0.0.0:*                           102069/ntpd         
+udp        0      0 127.0.0.1:123           0.0.0.0:*                           102069/ntpd         
+udp        0      0 0.0.0.0:123             0.0.0.0:*                           102069/ntpd         
+udp6       0      0 fe80::f816:3eff:fe7:123 :::*                                102069/ntpd         
+udp6       0      0 ::1:123                 :::*                                102069/ntpd         
+udp6       0      0 :::123                  :::*                                102069/ntpd         
+%e46eb73e6c154314923ee2a2b46c76b8%
+%4299dfe04c2d41bcb1e307e86d42de9d%
+#bms-prompt# #!/bin/bash
+#bms-prompt# up_uidmin=`(grep -v ^# /etc/login.defs |grep "^UID_MIN"|awk '($1="UID_MIN"){print $2}')`
+#bms-prompt# up_uidmax=`(grep -v ^# /etc/login.defs |grep "^UID_MAX"|awk '($1="UID_MAX"){print $2}')`
+#bms-prompt# egrep -v "oracle|sybase|postgres" /etc/passwd|awk -F: '($3>='$up_uidmin' && $3<='$up_uidmax') {print $1":"$3}'
+xxhxmb:1000
+#bms-prompt# echo "result="`egrep -v "oracle|sybase|postgres" /etc/passwd|awk -F: '($3>='$up_uidmin' && $3<='$up_uidmax') {print $1":"$3}'|wc -l`
+result=1
+%4299dfe04c2d41bcb1e307e86d42de9d%
+%77aabcaacbe84c8c8e6b3e1f7c280ce1%
+#bms-prompt# echo "idle_activation_enabled="`gconftool-2 -g /apps/gnome-screensaver/idle_activation_enabled`
+-bash: gconftool-2: command not found
+idle_activation_enabled=
+#bms-prompt# echo "lock_enabled="`gconftool-2 -g /apps/gnome-screensaver/lock_enabled`
+-bash: gconftool-2: command not found
+lock_enabled=
+#bms-prompt# echo "mode="`gconftool-2 -g /apps/gnome-screensaver/mode`
+-bash: gconftool-2: command not found
+mode=
+#bms-prompt# echo "idle_delay="`gconftool-2 -g /apps/gnome-screensaver/idle_delay`
+-bash: gconftool-2: command not found
+idle_delay=
+%77aabcaacbe84c8c8e6b3e1f7c280ce1%
+%69b747ca8a45454c9c272f02d97f06b7%
+#bms-prompt# #!/bin/bash
+#bms-prompt# chkconfig --list |grep nfs
+
+Note: This output shows SysV services only and does not include native
+      systemd services. SysV configuration data might be overridden by native
+      systemd configuration.
+
+      If you want to list systemd services use 'systemctl list-unit-files'.
+      To see services enabled on particular target use
+      'systemctl list-dependencies [target]'.
+
+#bms-prompt# ps -ef |grep nfs|egrep "lockd|statd|nfsd|mountd"|egrep -v "egrep|grep"
+#bms-prompt# NFSSTATUS=`ps -ef |grep nfs|egrep "lockd|statd|nfsd|mountd"|egrep -v "egrep|grep"|wc -l`
+#bms-prompt# NFSAllowNo=`egrep -i "nfs" /etc/hosts.allow|egrep -v "all\b" |sed '/^#/d'|sed '/^$/d'|wc -l`
+#bms-prompt# if [ $NFSSTATUS = 0 ]  ;
+> 
+> then echo "NFS services online:$NFSSTATUS";
+> 
+> echo "Numbers in hosts.allow:$NFSAllowNo";
+> 
+> echo "NFS check result:true";
+> 
+> else      if [ $NFSAllowNo != 0 ];
+> 
+> then echo "NFS services online:$NFSSTATUS";
+> 
+> echo "Numbers in hosts.allow:$NFSAllowNo";
+> 
+> echo "NFS check result:true";
+> 
+> else echo "NFS services online:$NFSSTATUS";
+> 
+> echo "Numbers in hosts.allow:$NFSAllowNo";
+> 
+> echo "NFS check result:false";
+> 
+> fi;
+> 
+> fi;
+NFS services online:0
+Numbers in hosts.allow:0
+NFS check result:true
+#bms-prompt# unset NFSSTATUS NFSAllowNo
+%69b747ca8a45454c9c272f02d97f06b7%
+%8db29a01dbe940cf8de1e2ad8553c068%b58cac0f97984abc9939d9a8c10ac005%69ab6ff6a1ea4e4392b94cfd37eeff46%47c5cad73bcb44fdaa651b8e1610e11d%
+#bms-prompt# #!/bin/bash
+#bms-prompt# function Check_SYSLOGD
+> 
+> {
+> 
+> if [[ `ps -ef|grep -i 'rsyslog'|grep -v "grep"|wc -l|awk '{print $1}'` != 0 ]];
+> 
+>    then SYSLOGCONF=/etc/rsyslog.conf;
+> 
+> else SYSLOGCONF=/etc/syslog.conf;
+> 
+> fi
+> 
+> cat $SYSLOGCONF |sed '/^#/d'|sed '/^$/d'|awk '($2!~/*/) && ($2!~/-/) {print $1"\t"$2}'
+> 
+> }
+#bms-prompt# function Check_SYSLOGNG
+> 
+> {
+> 
+> SYSLOGCONF=/etc/syslog-ng/syslog-ng.conf
+> 
+> for FILTER in `cat $SYSLOGCONF |grep "^log"|grep filter|cut -d\; -f2|cut -d\( -f2|cut -d\) -f1|sort|uniq`;do
+> 
+>     cat $SYSLOGCONF|grep "^filter $FILTER"
+> 
+> done
+> 
+> for DESTINATION in `cat $SYSLOGCONF |grep "^log"|awk -F\; '{print $1"\n"$2"\n"$3}'|grep destination|cut -d\( -f2|cut -d\) -f1|sort|uniq`;do
+> 
+>     cat $SYSLOGCONF|grep "^destination $DESTINATION "
+> 
+> done
+> 
+> cat $SYSLOGCONF |grep "^log"
+> 
+> }
+#bms-prompt# if [[ `ps -ef|egrep '(syslogd|syslog-ng)'|grep -v "grep"|wc -l|awk '{print $1}'` != 0 ]];
+> 
+>    then if [[ `ps -ef|grep -i 'syslog-ng'|grep -v "grep"|wc -l|awk '{print $1}'` != 0 ]];
+> 
+>            then Check_SYSLOGNG;
+> 
+>            else Check_SYSLOGD;
+> 
+>         fi;
+> 
+>    else echo "syslog is not running";
+> 
+> fi
+$ModLoad        imuxsock
+$ModLoad        imjournal
+$WorkDirectory  /var/lib/rsyslog
+$ActionFileDefaultTemplate      RSYSLOG_TraditionalFileFormat
+$OmitLocalLogging       on
+$IMJournalStateFile     imjournal.state
+*.info;mail.none;authpriv.none;cron.none        /var/log/messages
+authpriv.*      /var/log/secure
+cron.*  /var/log/cron
+uucp,news.crit  /var/log/spooler
+local7.*        /var/log/boot.log
+%8db29a01dbe940cf8de1e2ad8553c068%b58cac0f97984abc9939d9a8c10ac005%69ab6ff6a1ea4e4392b94cfd37eeff46%47c5cad73bcb44fdaa651b8e1610e11d%
+%c94a137ac42a4255a8345654c21d6509%
+#bms-prompt# cat /etc/hosts.allow |sed '/^#/d'|sed '/^$/d'|egrep -iw "sshd|telnet|all"|egrep -v "all:all\b"
+#bms-prompt# cat /etc/hosts.deny |sed '/^#/d'|sed '/^$/d'|egrep -iw "sshd|telnet|all"
+#bms-prompt# echo "allowno="`egrep -iw "sshd|telnet|all" /etc/hosts.allow|egrep -v "all:all\b" |sed '/^#/d'|sed '/^$/d'|wc -l`
+allowno=0
+#bms-prompt# echo "denyno="`egrep -iw "sshd|telnet|all" /etc/hosts.deny |sed '/^#/d'|sed '/^$/d'|wc -l`
+denyno=0
+%c94a137ac42a4255a8345654c21d6509%
+%d9c2740e1ada43f5b173f79cc9224066%
+#bms-prompt# cat /etc/login.defs |sed '/^#/d'|sed '/^$/d'
+MAIL_DIR        /var/spool/mail
+PASS_MAX_DAYS   99999
+PASS_MIN_DAYS   0
+PASS_MIN_LEN    5
+PASS_WARN_AGE   7
+UID_MIN                  1000
+UID_MAX                 60000
+SYS_UID_MIN               201
+SYS_UID_MAX               999
+GID_MIN                  1000
+GID_MAX                 60000
+SYS_GID_MIN               201
+SYS_GID_MAX               999
+CREATE_HOME     yes
+UMASK           077
+USERGROUPS_ENAB yes
+ENCRYPT_METHOD SHA512 
+%d9c2740e1ada43f5b173f79cc9224066%
+%9505ef7fef04443ba964925829a20de8%
+#bms-prompt# #!/bin/bash
+#bms-prompt# SNMPD_STATUS=`/etc/init.d/snmpd status|awk -F: '{print $2}'`;
+-bash: /etc/init.d/snmpd: No such file or directory
+#bms-prompt# function Check_SNMPD
+> 
+> {
+> 
+> if [ -f /etc/snmp/snmpd.conf ];
+> 
+> then SNMPD_CONF=/etc/snmp/snmpd.conf;
+> 
+> else SNMPD_CONF=/etc/snmpd.conf;
+> 
+> fi;
+> 
+> grep -v "^#" $SNMPD_CONF|egrep "community";
+> 
+> if [ `grep -v "^#" $SNMPD_CONF|egrep "rocommunity|rwcommunity"|egrep "public|private"|wc -l` -eq 0 ];
+> 
+> then echo "SNMPD is running.SNMP check result:true";
+> 
+> else echo "SNMPD is running.SNMP check result:false";
+> 
+> fi;
+> 
+> }
+#bms-prompt# if [ "$SNMPD_STATUS" == "..running" ];
+> 
+> then Check_SNMPD;
+> 
+> else echo "SNMPD is not running.SNMP check result:true";
+> 
+> fi
+SNMPD is not running.SNMP check result:true
+#bms-prompt# unset SNMPD_STATUS SNMPD_CONF;
+%9505ef7fef04443ba964925829a20de8%
+%ebafca02f6b949be899178122758cfcb%
+#bms-prompt# #!/bin/bash
+#bms-prompt# FTPSTATUS=`netstat -antp|grep -i "listen"|grep ":21\>"|wc -l`
+#bms-prompt# function Check_vsftpd
+> 
+> {
+> 
+> if [ -f /etc/vsftpd.conf ];
+> 
+>     then FTPCONF="/etc/vsftpd.conf";
+> 
+>         elif [ -f /etc/vsftpd/vsftpd.conf ];
+> 
+>         then FTPCONF="/etc/vsftpd/vsftpd.conf";
+> 
+> fi;
+> 
+> cat $FTPCONF|egrep -v "^#|^$"
+> 
+> if [ `grep -v "^#" $FTPCONF|grep -i "chroot_local_user=YES"|wc -l` -eq 1 ];
+> 
+>    then  echo "vsftpd is running.$FTPCONF is recommended.FTP check result:true.";
+> 
+>    else  echo "vsftpd is running.$FTPCONF is not recommended.FTP check result:false.";
+> 
+> fi;
+> 
+> unset FTPCONF;
+> 
+> }
+#bms-prompt# function Check_pureftpd
+> 
+> {
+> 
+> cat /etc/pure-ftpd/pure-ftpd.conf|egrep -v "^#|^$"
+> 
+> ChrootEveryone=`cat /etc/pure-ftpd/pure-ftpd.conf|grep -v "^#"|grep -i "ChrootEveryone"|grep -i "yes"|wc -l`;
+> 
+> AllowUserFXP=`cat /etc/pure-ftpd/pure-ftpd.conf|grep -v "^#"|grep -i "AllowUserFXP"|grep -i "no"|wc -l`;
+> 
+> AllowAnonymousFXP=`cat /etc/pure-ftpd/pure-ftpd.conf|grep -v "^#"|grep -i "AllowAnonymousFXP"|grep -i "no"|wc -l`;
+> 
+> PUREFTPD_NO=$(expr $ChrootEveryone + $AllowUserFXP + $AllowAnonymousFXP);
+> 
+> if [ $PUREFTPD_NO -eq 3 ];
+> 
+>    then echo "pure-ftpd is running.pure-ftpd.conf is recommended.FTP check result:true.";
+> 
+>    else echo "pure-ftpd is running.pure-ftpd.conf is not recommended.FTP check result:false.";
+> 
+> fi;
+> 
+> unset ChrootEveryone AllowUserFXP AllowAnonymousFXP PUREFTPD_NO;
+> 
+> }
+#bms-prompt# if [ $FTPSTATUS = 0 ];
+> 
+>      then  echo "FTP is not running.FTP check result:true.";
+> 
+>      else  if ([ `ps -ef|grep vsftpd|grep -v "grep"|wc -l` -ne 0 ] || [[ `chkconfig --list |grep vsftp|grep -v "0:"|grep -w on|wc -l` -ne 0 ]]);
+> 
+>               then Check_vsftpd;
+> 
+>               else Check_pureftpd;
+> 
+>            fi;
+> 
+> fi
+FTP is not running.FTP check result:true.
+#bms-prompt# unset FTPSTATUS;
+%ebafca02f6b949be899178122758cfcb%
+%ed18c9481cff4b49a8618fe435717b72%
+#bms-prompt# #!/bin/bash
+#bms-prompt# NUMBER=0;
+#bms-prompt# for DIR in `cut -d":" -f6 /etc/passwd`;
+> 
+> do if [ -e $DIR/.netrc ];
+> 
+> then echo "$DIR/.netrc";NUMBER=`expr $NUMBER + 1`;
+> 
+> fi;
+> 
+> done
+#bms-prompt# echo "result="$NUMBER
+result=0
+#bms-prompt# unset NUMBER
+%ed18c9481cff4b49a8618fe435717b72%
+%d1c7cccc697d4fffb8f66b32f9d30ea6%
+#bms-prompt# cat /etc/profile |sed '/^#/d'|sed '/^$/d'|grep -i TMOUT
+TMOUT=600
+export TMOUT
+#bms-prompt# cat /etc/csh.cshrc |sed '/^#/d'|sed '/^$/d'|grep -i autologout
+set autologout=600
+%d1c7cccc697d4fffb8f66b32f9d30ea6%
+%e4cf2931205d4407bd0f3675031bba11%
+#bms-prompt# #!/bin/bash
+#bms-prompt# SSHSTATUS=`ps -ef|grep -i sshd|grep -v grep|wc -l`
+#bms-prompt# if [ x"$SSHSTATUS" != "x0" ];
+> 
+> then  if [[ `grep "^PermitRootLogin" /etc/ssh/sshd_config|awk '{print $2}'|grep -w "no"|wc -l` != 0 ]];
+> 
+>       then  grep "^PermitRootLogin" /etc/ssh/sshd_config;
+> 
+>             echo "This device does not permit root to ssh login,check result:true";
+> 
+>       else  echo "This device permits root  to ssh login,check result:false" ;
+> 
+>       fi
+> 
+> else  echo "The ssh service of device is not running,check result:true";
+> 
+> fi
+This device permits root  to ssh login,check result:false
+#bms-prompt# TELSTATUS=`netstat -ant|grep ":23\>"|wc -l`
+#bms-prompt# if [ x"$TELSTATUS" != "x0" ];
+> 
+> then  if ([ -f /etc/securetty ] && [ `grep -i "^pts" /etc/securetty|wc -l` = 0  ]);
+> 
+>        then  echo "This device does not permit root to telnet login,check result:true";
+> 
+>        else  echo "This device permits root to telnet login,check result:false";
+> 
+>       fi
+> 
+> else  echo "The telnet service of device is not running,check result:true" ;
+> 
+> fi
+The telnet service of device is not running,check result:true
+%e4cf2931205d4407bd0f3675031bba11%
+%c4889ccde9944c32b5fec8976df4e6ee%
+#bms-prompt# #!/bin/bash
+#bms-prompt# UP_GIDMIN=`(grep -v ^# /etc/login.defs |grep "^GID_MIN"|awk '($1="GID_MIN") {print $2}')`
+#bms-prompt# UP_GIDMAX=`(grep -v ^# /etc/login.defs |grep "^GID_MAX"|awk '($1="GID_MAX") {print $2}')`
+#bms-prompt# egrep -v "oracle|sybase|postgres" /etc/passwd|awk -F: '($4>='$UP_GIDMIN' && $4<='$UP_GIDMAX') {print $1":"$3":"$4}'
+xxhxmb:1000:1000
+#bms-prompt# echo $UP_GIDMIN $UP_GIDMAX
+1000 60000
+#bms-prompt# echo "result="`egrep -v "oracle|sybase|postgres" /etc/passwd|awk -F: '($4>='$UP_GIDMIN' && $4<='$UP_GIDMAX') {print $1":"$3":"$4}'|wc -l`
+result=1
+#bms-prompt# unset UP_GIDMIN UP_GIDMAX
+%c4889ccde9944c32b5fec8976df4e6ee%
+%468fab7d52f94e188b1e0367e50077e7%
+#bms-prompt# cat /etc/profile|sed '/^#/d'|sed '/^$/d'|grep -i "umask"
+    umask 002
+    umask 022
+%468fab7d52f94e188b1e0367e50077e7%
+%4833e44485c649bc971e6612e3c818a5%
+#bms-prompt# #!/bin/bash
+#bms-prompt# FTPSTATUS=`netstat -antp|grep -i "listen"|grep ":21\>"|wc -l`
+#bms-prompt# function Check_vsftpd
+> 
+> {
+> 
+> if [ -f /etc/vsftpd.conf ];
+> 
+>     then FTPCONF="/etc/vsftpd.conf";
+> 
+>         elif [ -f /etc/vsftpd/vsftpd.conf ];
+> 
+>         then FTPCONF="/etc/vsftpd/vsftpd.conf";
+> 
+> fi;
+> 
+> cat $FTPCONF|egrep -v "^#|^$"
+> 
+> if [ `grep -v "^#" $FTPCONF|grep -i "ftpd_banner"|wc -l` -ne 0 ];
+> 
+>    then  echo "vsftpd is running.Banner in $FTPCONF is recommended.FTP check result:true.";
+> 
+>    else  echo "vsftpd is running.Banner in $FTPCONF is not recommended.FTP check result:false.";
+> 
+> fi;
+> 
+> unset FTPCONF;
+> 
+> }
+#bms-prompt# function Check_pureftpd
+> 
+> {
+> 
+> cat /etc/pure-ftpd/pure-ftpd.conf|egrep -v "^#|^$"
+> 
+> if [ `grep -v "^#" /etc/pure-ftpd/pure-ftpd.conf|grep -i "FortunesFile"|wc -l` -eq 0 ];
+> 
+>    then echo "pure-ftpd is running.banner in pure-ftpd.conf is not recommended.FTP check result:false.";
+> 
+>    else if [ -s `grep -v "^$" /etc/pure-ftpd/pure-ftpd.conf|grep -i fortunes|awk '{print $2}'` ];
+> 
+>             then echo "pure-ftpd is running.Banner in pure-ftpd.conf is recommended.FTP check result:true.";
+> 
+>             else echo "pure-ftpd is running.Banner in pure-ftpd.conf is not recommended.FTP check result:false.";
+> 
+>         fi;
+> 
+> fi;
+> 
+> }
+#bms-prompt# if [ $FTPSTATUS = 0 ];
+> 
+>      then  echo "FTP is not running.FTP check result:true.";
+> 
+>      else  if ([ `ps -ef|grep vsftpd|grep -v "grep"|wc -l` -ne 0 ] || [ `chkconfig --list |grep vsftp|grep -v "0:"|grep -w on|wc -l` -ne 0 ]);
+> 
+>               then Check_vsftpd;
+> 
+>               else Check_pureftpd;
+> 
+>            fi;
+> 
+> fi
+FTP is not running.FTP check result:true.
+#bms-prompt# unset FTPSTATUS;
+%4833e44485c649bc971e6612e3c818a5%
+%c49c975562df4a0ba75600a5b8de86ad%
+#bms-prompt# cat /etc/inittab|grep -v "^#"|grep "ctrlaltdel"
+%c49c975562df4a0ba75600a5b8de86ad%
+%1f37a0eb3dd5455ca205bd6df7b31e86%
+#bms-prompt# #!/bin/bash
+#bms-prompt# if [ -f  /etc/syslog.conf ];
+> 
+>    then SYSLOGCONF=/etc/syslog.conf;
+> 
+> LOGDIR=`cat $SYSLOGCONF |sed '/^#/d' |sed '/^$/d' |awk '(($2!~/@/) && ($2!~/*/) && ($2!~/-/)) {print $2}'`;
+> 
+>          ls -l $LOGDIR;
+> 
+> fi
+#bms-prompt# if [ -f  /etc/rsyslog.conf ];
+> 
+> then SYSLOGCONF=/etc/rsyslog.conf;
+> 
+> LOGDIR=`cat $SYSLOGCONF |sed '/^#/d' |sed '/^$/d' |awk '(($2!~/@/) && ($2!~/*/) && ($2!~/-/)) {print $2}'`;
+> 
+>          ls -l $LOGDIR;
+> 
+> fi
+ls: cannot access imuxsock: No such file or directory
+ls: cannot access imjournal: No such file or directory
+ls: cannot access RSYSLOG_TraditionalFileFormat: No such file or directory
+ls: cannot access on: No such file or directory
+ls: cannot access imjournal.state: No such file or directory
+-rw-r--r--. 1 root root     0 Jul 29 03:21 /var/log/boot.log
+-rw-------  1 root root 42602 Nov  6 14:01 /var/log/cron
+-rw-------  1 root root 46298 Nov  6 14:04 /var/log/messages
+-rw-------  1 root root  2058 Nov  6 12:35 /var/log/secure
+-rw-------  1 root root     0 Nov  3 03:07 /var/log/spooler
+
+/var/lib/rsyslog:
+total 4
+-rw------- 1 root root 125 Nov  6 14:01 imjournal.state
+#bms-prompt# if [ -f  /etc/syslog-ng/syslog-ng.conf ];
+> 
+> then SYSLOGCONF=/etc/rsyslog.conf;
+> 
+> LOGDIR=`cat /etc/syslog-ng/syslog-ng.conf|grep "^destination"|grep file|cut -d\" -f2`;
+> 
+>               ls -l $LOGDIR;
+> 
+> fi
+%1f37a0eb3dd5455ca205bd6df7b31e86%
+%60102f638cf446c0a2194243eeae50c1%
+#bms-prompt# LANG=C
+#bms-prompt# chkconfig --list |egrep "telnet|ssh"
+
+Note: This output shows SysV services only and does not include native
+      systemd services. SysV configuration data might be overridden by native
+      systemd configuration.
+
+      If you want to list systemd services use 'systemctl list-unit-files'.
+      To see services enabled on particular target use
+      'systemctl list-dependencies [target]'.
+
+sshd            0:off   1:off   2:on    3:on    4:on    5:on    6:off
+#bms-prompt# echo "telnet_status="`ps -ef|grep -i telnet|grep -v grep|wc -l`
+telnet_status=0
+#bms-prompt# echo "telnet_statusfile="`cat /etc/xinetd.d/telnet |grep -v "^#"|grep "disable" |grep "no" |wc -l`
+cat: /etc/xinetd.d/telnet: No such file or directory
+telnet_statusfile=0
+#bms-prompt# echo "ssh_status="`service sshd status |grep "is running" |wc -l`
+ssh_status=1
+#bms-prompt# echo "ssh_statusfile1="`ps -ef|grep -i sshd|grep -v grep|wc -l`
+ssh_statusfile1=2
+#bms-prompt# echo "ssh_statusfile2="`ps -ef |grep "sshd"|grep -v "grep"|wc -l`
+ssh_statusfile2=2
+%60102f638cf446c0a2194243eeae50c1%
+%7d08ca29c2264b6b937739cdc9330cf7%
+#bms-prompt# export LC_ALL=C
+#bms-prompt# chkconfig --list|egrep "amanda|chargen|chargen-udp|cups|cups-lpd|daytime|daytime-udp|echo|echo-udp|eklogin|ekrb5-telnet|finger|gssftp|imap|imaps|ipop2|ipop3|klogin|krb5-telnet|kshell|ktalk|ntalk|rexec|rlogin|rsh|rsync|talk|tcpmux-server|telnet|tftp|time-dgram|time-stream|uucp"|grep -w "on"
+
+Note: This output shows SysV services only and does not include native
+      systemd services. SysV configuration data might be overridden by native
+      systemd configuration.
+
+      If you want to list systemd services use 'systemctl list-unit-files'.
+      To see services enabled on particular target use
+      'systemctl list-dependencies [target]'.
+
+#bms-prompt# echo "result="`chkconfig --list|egrep "amanda|chargen|chargen-udp|cups|cups-lpd|daytime|daytime-udp|echo|echo-udp|eklogin|ekrb5-telnet|finger|gssftp|imap|imaps|ipop2|ipop3|klogin|krb5-telnet|kshell|ktalk|ntalk|rexec|rlogin|rsh|rsync|talk|tcpmux-server|telnet|tftp|time-dgram|time-stream|uucp"|grep -w "on"|wc -l`
+
+Note: This output shows SysV services only and does not include native
+      systemd services. SysV configuration data might be overridden by native
+      systemd configuration.
+
+      If you want to list systemd services use 'systemctl list-unit-files'.
+      To see services enabled on particular target use
+      'systemctl list-dependencies [target]'.
+
+result=0
+#bms-prompt# echo "result="`chkconfig --list|grep -w "on"|awk '{print $1}'|egrep "^amanda$|^chargen$|^chargen-udp$|^cups$|^cups-lpd$|^daytime$|^daytime-udp$|^echo$|^echo-udp$|^eklogin$|^ekrb5-telnet$|^finger$|^gssftp$|^imap$|^imaps$|^ipop2$|^ipop3$|^klogin$|^krb5-telnet$|^kshell$|^ktalk$|^ntalk$|^rexec$|^rlogin$|^rsh$|^rsync$|^talk$|^tcpmux-server$|^telnet$|^tftp$|^time-dgram$|^time-stream|^uucp"|wc -l`
+
+Note: This output shows SysV services only and does not include native
+      systemd services. SysV configuration data might be overridden by native
+      systemd configuration.
+
+      If you want to list systemd services use 'systemctl list-unit-files'.
+      To see services enabled on particular target use
+      'systemctl list-dependencies [target]'.
+
+result=0
+%7d08ca29c2264b6b937739cdc9330cf7%
+%708b8209c9c64754ac8309846ec29a78%
+#bms-prompt# #!/bin/bash
+#bms-prompt# FTPSTATUS=`netstat -antp|grep -i "listen"|grep ":21\>"|wc -l`;
+#bms-prompt# USERNO=`cat /etc/passwd|cut -d: -f1|egrep "^root$|^daemon$|^bin$|^sys$|^adm$|^lp$|^uucp$|^nuucp$|^listen$|^nobody$|^noaccess$|^nobody4$"|wc -l`;
+#bms-prompt# USERNO1=0;
+#bms-prompt# USERNO2=0;
+#bms-prompt# function Check_vsftpconf
+> 
+> {
+> 
+>   if [ -f /etc/vsftpd.conf ];
+> 
+>   then
+> 
+>     FTPCONF="/etc/vsftpd.conf";
+> 
+>   elif [ -f /etc/vsftpd/vsftpd.conf ];
+> 
+>   then
+> 
+>     FTPCONF="/etc/vsftpd/vsftpd.conf";
+> 
+>   else
+> 
+>     echo "/etc/vsftpd.conf or /etc/vsftpd/vsftpd.conf is not exist,scripts exit now";
+> 
+>     return 0;
+> 
+>   fi;
+> 
+>   echo "-------$FTPCONF--------";
+> 
+>   cat $FTPCONF|grep -v "^#";
+> 
+>   FTPUSER=`cat $FTPCONF|grep -v "^#"|grep userlist_file|cut -d= -f2`;
+> 
+>   echo "-------$FTPUSER--------";
+> 
+>   cat ${FTPUSER:="/etc/vsftpd.user_list"} |grep -v "^#"|grep -v "^$";
+> 
+>   userlist_enable=`grep -v "^#" $FTPCONF|grep -i "userlist_enable=YES"|wc -l`;
+> 
+>   userlist_deny=`grep -v "^#" $FTPCONF|grep -i "userlist_deny=NO"|wc -l`;
+> 
+>   if [ $userlist_enable = 1 -a $userlist_deny = 1 ] && [ "$FTPUSER" != "" ];
+> 
+>   then
+> 
+>   {
+> 
+>  for  USER in `cat /etc/passwd|cut -d: -f1|egrep "^root$|^daemon$|^bin$|^sys$|^adm$|^lp$|^uucp$|^nuucp$|^listen$|^nobody$|^noaccess$|^nobody4$"`;
+> 
+>         do
+> 
+>     TEMP=`cat $FTPUSER|grep -v "^#"|grep -w $USER|wc -l`;
+> 
+>     USERNO2=`expr $TEMP + $USERNO2`;
+> 
+>     if [ $TEMP != 0 ];
+> 
+>       then echo "$USER in $FTPUSER , allowed to ftp ";
+> 
+>     fi
+> 
+>  done
+> 
+>        if [ $USERNO2 = 0 ];
+> 
+>           then  echo "FTP is running.FTP user config $ftpusers_pam is not recommended.FTP user config "$FTPUSER" is recommended.FTP check result:true.";
+> 
+>           else  echo "FTP is running.FTP user config $ftpusers_pam is not recommended.FTP user config "$FTPUSER" is not recommended.FTP check result:false.";
+> 
+>        fi;
+> 
+>    }
+> 
+>     else  echo "FTP is running.FTP user config $ftpusers_pam is not recommended.FTP user config "$FTPCONF" is not recommended.FTP check result:false.";
+> 
+> fi
+> 
+> }
+#bms-prompt# function Check_ftpusers1
+> 
+> {
+> 
+>   echo "-----------/etc/passwd----------";
+> 
+>   cat /etc/passwd|cut -d: -f1|egrep "^root$|^daemon$|^bin$|^sys$|^adm$|^lp$|^uucp$|^nuucp$|^listen$|^nobody$|^noaccess$|^nobody4$";
+> 
+>   if [ -f /etc/pam.d/vsftpd ]
+> 
+>   then
+> 
+>     ftpusers_pam=`grep file /etc/pam.d/vsftpd|egrep -v "^#"|sed 's/^.*file=//g'|awk '{print $1}'`;
+> 
+>     if [ a${ftpusers_pam} != a ]
+> 
+>     then
+> 
+>     {
+> 
+>        echo "---------$ftpusers_pam---------";
+> 
+>        cat $ftpusers_pam|grep -v "^#"|grep -v "^$";
+> 
+>        for  USER in `cat /etc/passwd|cut -d: -f1|egrep "^root$|^daemon$|^bin$|^sys$|^adm$|^lp$|^uucp$|^nuucp$|^listen$|^nobody$|^noaccess$|^nobody4$"`;
+> 
+>        do
+> 
+>    TEMP=`cat $ftpusers_pam|grep -v "^#"|grep -w $USER|wc -l`;
+> 
+>    USERNO1=`expr $TEMP + $USERNO1`;
+> 
+>    if [ $TEMP = 0 ];
+> 
+>     then echo "$USER not in $ftpusers_pam , allowed to ftp ";
+> 
+>    fi
+> 
+>        done
+> 
+>        if [ $USERNO = $USERNO1 ];
+> 
+>        then
+> 
+>          echo "FTP is running.FTP user config $ftpusers_pam is recommended.FTP check result:true.";
+> 
+>        else Check_vsftpconf;
+> 
+>        fi
+> 
+>      }
+> 
+>     else
+> 
+>       echo "/etc/pam.d/vsftpd is not configure account. scripts exit now";
+> 
+>     fi
+> 
+>   else
+> 
+>     echo "/etc/pam.d/vsftpd is not exist,scripts exit now,FTP check result:true";
+> 
+>   fi
+> 
+> }
+#bms-prompt# if [ $FTPSTATUS = 0 ];
+> 
+>     then  echo "FTP is not running.FTP check result:true.";
+> 
+>     else  Check_ftpusers1;
+> 
+> fi
+FTP is not running.FTP check result:true.
+#bms-prompt# unset FTPSTATUS USERNO USERNO1 USERNO2;
+%708b8209c9c64754ac8309846ec29a78%
+%a1800b0adfd847b185eff813fa8da772%2bd4084354b44917b989b0d623343ddb%
+#bms-prompt# cat /etc/sysctl.conf | grep -v '^#'| grep -v '^$'
+net.ipv4.conf.all.arp_notify = 1
+net.ipv4.conf.default.arp_notify = 1
+net.ipv4.conf.eth0.arp_notify = 1
+net.ipv4.conf.lo.arp_notify = 1
+net.ipv4.conf.all.accept_redirects=0
+#bms-prompt# echo "accept_redirects="`(sysctl -n net.ipv4.conf.all.accept_redirects)`
+accept_redirects=0
+#bms-prompt# echo "accept_source_route"=`(sysctl -n net.ipv4.conf.all.accept_source_route)`
+accept_source_route=0
+%a1800b0adfd847b185eff813fa8da772%2bd4084354b44917b989b0d623343ddb%
+%c380db4932b341289d3caa33b800a82e%
+#bms-prompt# cat /etc/shadow |egrep -w "^lp|^nobody|^uucp|^games|^rpm|^smmsp" |awk -F: '{print $1":"$2}'| egrep -v "\!|\*"
+#bms-prompt# cat /etc/shadow |egrep -w "^nfsnobody|^listen|^gdm|^webservd|^nobody4|^noaccess" |awk -F: '{print $1":"$2}'| egrep -v "\!|\*"
+#bms-prompt# echo "result0="`cat /etc/shadow |egrep -w "^lp|^nobody|^uucp|^games|^rpm|^smmsp" |awk -F: '{print $1":"$2}'| egrep -v "\!|\*"|wc -l`
+result0=0
+#bms-prompt# echo "result1="`cat /etc/shadow |egrep -w "^nfsnobody|^listen|^gdm|^webservd|^nobody4|^noaccess" |awk -F: '{print $1":"$2}'| egrep -v "\!|\*"|wc -l`
+result1=0
+#bms-prompt# cat /etc/passwd |egrep -w "^lp|^nobody|^uucp|^games|^rpm|^smmsp" |awk -F: '($7!~"/bin/false|/sbin/nologin") {print $1":"$7}'
+#bms-prompt# cat /etc/passwd |egrep -w "^nfsnobody|^listen|^gdm|^webservd|^nobody4|^noaccess" |awk -F: '($7!~"/bin/false|/sbin/nologin") {print $1":"$7}'
+#bms-prompt# echo "result2="`cat /etc/passwd |egrep -w "^lp|^nobody|^uucp|^games|^rpm|^smmsp" |awk -F: '($7!~"/bin/false|/sbin/nologin") {print $1":"$7}'|wc -l`
+result2=0
+#bms-prompt# echo "result3="`cat /etc/passwd |egrep -w "^nfsnobody|^listen|^gdm|^webservd|^nobody4|^noaccess" |awk -F: '($7!~"/bin/false|/sbin/nologin") {print $1":"$7}'|wc -l`
+result3=0
+%c380db4932b341289d3caa33b800a82e%
+%bd02bd8725f443fd9d6704aa0ae1370d%
+#bms-prompt# ls /etc/rc2.d/* /etc/rc3.d/* /etc/rc4.d/* /etc/rc5.d/*|egrep "lp\b|rpc\b|snmpdx\b|keyserv\b|nscd\b|Volmgt\b|uucp\b|dmi\b|sendmail\b|autoinstall\b"|grep "^S"
+#bms-prompt# echo "result="`ls /etc/rc2.d/* /etc/rc3.d/* /etc/rc4.d/* /etc/rc5.d/*|egrep "lp\b|rpc\b|snmpdx\b|keyserv\b|nscd\b|Volmgt\b|uucp\b|dmi\b|sendmail\b|autoinstall\b"|grep "^S"|wc -l`
+result=0
+#bms-prompt# ls /etc/rc2.d/* /etc/rc3.d/* /etc/rc4.d/* /etc/rc5.d/*|egrep "lp\b|rpc\b|snmpdx\b|keyserv\b|nscd\b|Volmgt\b|uucp\b|dmi\b|sendmail\b|autoinstall\b"|awk -F/ '{print $NF}'|grep "^S"
+#bms-prompt# echo "result="`ls /etc/rc2.d/* /etc/rc3.d/* /etc/rc4.d/* /etc/rc5.d/*|egrep "lp\b|rpc\b|snmpdx\b|keyserv\b|nscd\b|Volmgt\b|uucp\b|dmi\b|sendmail\b|autoinstall\b"|awk -F/ '{print $NF}'|grep "^S"|wc -l`
+result=0
+%bd02bd8725f443fd9d6704aa0ae1370d%
+%f1d422bf9fcb40deb62f69c56a5a0d9d%
+#bms-prompt# ls -l /etc/default/* /etc/init.d/* /etc/rc*.d/* /tmp/* /etc/cron*|grep "\-rwxrwxrwx"
+#bms-prompt# echo "result="`ls -l /etc/default/* /etc/init.d/* /etc/rc*.d/* /etc/cron*|grep "\-rwxrwxrwx"|wc -l`
+result=0
+%f1d422bf9fcb40deb62f69c56a5a0d9d%
+%5d66f74e726c4a26a8573cababd75260%dc93b51e2edb4a9fbb908d86a7d0998f%9bb5d731a63d4023a4dc15b9be47046b%
+#bms-prompt# #!/bin/bash
+#bms-prompt# function Calculate
+> 
+> {
+> 
+>   CREDIT=`cat $FILE|egrep -v "^#|^$"|grep -m 1 -w "credit"|sed 's/^.*credit=//g'|sed 's/\s.*$//g'`
+> 
+>   DCREDIT=`cat $FILE|egrep -v "^#|^$"|grep -m 1 -w "dcredit"|sed 's/^.*dcredit=//g'|sed 's/\s.*$//g'`
+> 
+>   LCREDIT=`cat $FILE|egrep -v "^#|^$"|grep -m 1 -w "lcredit"|sed 's/^.*lcredit=//g'|sed 's/\s.*$//g'`
+> 
+>   UCREDIT=`cat $FILE|egrep -v "^#|^$"|grep -m 1 -w "ucredit"|sed 's/^.*ucredit=//g'|sed 's/\s.*$//g'`
+> 
+>   OCREDIT=`cat $FILE|egrep -v "^#|^$"|grep -m 1 -w "ocredit"|sed 's/^.*ocredit=//g'|sed 's/\s.*$//g'`
+> 
+>   MINCLASS=`cat $FILE|egrep -v "^#|^$"|grep -m 1 -w "minclass"|sed 's/^.*minclass=//g'|sed 's/\s.*$//g'`
+> 
+>   MINLEN=`cat $FILE|egrep -v "^#|^$"|grep -m 1 "minlen"|sed 's/^.*minlen=//g'|sed 's/\s.*$//g'`
+> 
+>   COUNT1=`cat $FILE|grep -i "min=disabled,12,8,6,5"|grep -i "max=40"| grep -i "passphrase=3"|grep -i "match=4"|grep -i "similar=deny"|grep -i "retry=3"|wc -l`
+> 
+>   COUNT2=0
+> 
+>   for NO in $CREDIT $DCREDIT $LCREDIT $UCREDIT $OCREDIT
+> 
+>   do
+> 
+>      if ([ $NO -lt 0 ]);
+> 
+>      then COUNT2=`expr $COUNT2 + 1`
+> 
+>      fi
+> 
+>   done
+> 
+>   if ([ ${MINCLASS:=0} -ge 2 ] && [ ${MINLEN:=0} -ge 8 ]);
+> 
+>          then echo "check result:true"
+> 
+>    elif ([ $COUNT2 -ge 2 ] && [ ${MINLEN:=0} -ge 8 ]);
+> 
+>           then echo "check result:true"
+> 
+>    elif ([ "$COUNT1" == "1" ]);
+> 
+>           then echo "check result:true"
+> 
+>    else echo "check result:false"
+> 
+>   fi
+> 
+>   unset CREDIT DCREDIT LCREDIT UCREDIT OCREDIT MINCLASS MINLEN COUNT1 COUNT2
+> 
+> }
+#bms-prompt# if ([ -f /etc/redhat-release ] && [ -f /etc/pam.d/system-auth ]);
+> 
+> then FILE=/etc/pam.d/system-auth
+> 
+>      echo "====/etc/pam.d/system-auth is:===="
+> 
+>      cat $FILE |sed '/^#/d'|sed '/^$/d'
+> 
+>      Calculate
+> 
+> elif ([ -f /etc/klinux-release ] && [ -f /etc/pam.d/system-auth ]);
+> 
+> then FILE=/etc/pam.d/system-auth
+> 
+>      echo "====/etc/pam.d/system-auth is:===="
+> 
+>      cat $FILE |sed '/^#/d'|sed '/^$/d'
+> 
+>      Calculate
+> 
+> elif ([ -f /etc/SuSE-release ] && [ -f /etc/pam.d/common-password ] && [ `cat /etc/pam.d/common-password |egrep -i "credit|min|max|passphrase|remember"|wc -l` -gt 0 ]);
+> 
+> then FILE=/etc/pam.d/common-password
+> 
+>      echo "====/etc/pam.d/common-password is:===="
+> 
+>      cat $FILE|grep -v '^#'|grep -v '^$'
+> 
+>      Calculate
+> 
+> elif ([ -f /etc/SuSE-release ] && [ -f /etc/pam.d/passwd ] && [ `cat /etc/pam.d/passwd |egrep -i "credit|min|max|passphrase|remember"|wc -l` -gt 0 ]);
+> 
+> then FILE=/etc/pam.d/passwd
+> 
+>      echo "====/etc/pam.d/passwd is:===="
+> 
+>      cat $FILE|grep -v '^#'|grep -v '^$'
+> 
+>      Calculate
+> 
+> fi;
+====/etc/pam.d/system-auth is:====
+auth        required      pam_env.so
+auth        required      pam_tally2.so deny=6 onerr=fail  unlock_time=120
+auth        sufficient    pam_unix.so nullok try_first_pass
+auth        requisite     pam_succeed_if.so uid >= 1000 quiet_success
+auth        required      pam_deny.so
+account     required      pam_unix.so
+account     sufficient    pam_localuser.so
+account     sufficient    pam_succeed_if.so uid < 1000 quiet
+account     required      pam_permit.so
+password    requisite     pam_pwquality.so try_first_pass local_users_only retry=3 authtok_type=
+password    sufficient    pam_unix.so sha512 shadow nullok try_first_pass use_authtok remember=5
+password    required      pam_deny.so
+session     optional      pam_keyinit.so revoke
+session     required      pam_limits.so
+-session     optional      pam_systemd.so
+session     [success=1 default=ignore] pam_succeed_if.so service in crond quiet use_uid
+session     required      pam_unix.so
+
+check result:false
+#bms-prompt# 
+#bms-prompt# if [ -f /etc/pam.d/login ];
+> 
+> then cat /etc/pam.d/login |sed '/^#/d'|sed '/^$/d';
+> 
+> fi;
+auth [user_unknown=ignore success=ok ignore=ignore default=bad] pam_securetty.so
+auth       substack     system-auth
+auth       include      postlogin
+account    required     pam_nologin.so
+account    include      system-auth
+password   include      system-auth
+session    required     pam_selinux.so close
+session    required     pam_loginuid.so
+session    optional     pam_console.so
+session    required     pam_selinux.so open
+session    required     pam_namespace.so
+session    optional     pam_keyinit.so force revoke
+session    include      system-auth
+session    include      postlogin
+-session   optional     pam_ck_connector.so
+#bms-prompt# if [ -f /etc/pam.d/sshd ];
+> 
+> then cat /etc/pam.d/sshd |sed '/^#/d'|sed '/^$/d';
+> 
+> fi;
+auth       required     pam_sepermit.so
+auth       substack     password-auth
+auth       include      postlogin
+-auth      optional     pam_reauthorize.so prepare
+account    required     pam_nologin.so
+account    include      password-auth
+password   include      password-auth
+session    required     pam_selinux.so close
+session    required     pam_loginuid.so
+session    required     pam_selinux.so open env_params
+session    required     pam_namespace.so
+session    optional     pam_keyinit.so force revoke
+session    include      password-auth
+session    include      postlogin
+-session   optional     pam_reauthorize.so prepare
+%5d66f74e726c4a26a8573cababd75260%dc93b51e2edb4a9fbb908d86a7d0998f%9bb5d731a63d4023a4dc15b9be47046b%
+%1108a6da360648b9a112ccc22d9e10cb%
+#bms-prompt# ls -l /etc/passwd | awk '{print $1":"$NF}'
+-rw-r--r--:/etc/passwd
+#bms-prompt# ls -l /etc/group | awk '{print $1":"$NF}'
+-rw-r--r--:/etc/group
+#bms-prompt# ls -l /etc/shadow | awk '{print $1":"$NF}'
+----------:/etc/shadow
+%1108a6da360648b9a112ccc22d9e10cb%
+%fa94e86169494cffb0ae97198f916e2d%
+#bms-prompt# ps aux
+USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          1  0.0  0.0 191284  4264 ?        Ss   Jul28   0:46 /usr/lib/systemd/systemd --switched-root --system --deserialize 22
+root          2  0.0  0.0      0     0 ?        S    Jul28   0:01 [kthreadd]
+root          3  0.0  0.0      0     0 ?        S    Jul28   0:01 [ksoftirqd/0]
+root          5  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kworker/0:0H]
+root          7  0.0  0.0      0     0 ?        S    Jul28   0:23 [migration/0]
+root          8  0.0  0.0      0     0 ?        S    Jul28   0:00 [rcu_bh]
+root          9  0.0  0.0      0     0 ?        S    Jul28  34:07 [rcu_sched]
+root         10  0.0  0.0      0     0 ?        S<   Jul28   0:00 [lru-add-drain]
+root         11  0.0  0.0      0     0 ?        S    Jul28   0:37 [watchdog/0]
+root         12  0.0  0.0      0     0 ?        S    Jul28   0:28 [watchdog/1]
+root         13  0.0  0.0      0     0 ?        S    Jul28   0:14 [migration/1]
+root         14  0.0  0.0      0     0 ?        S    Jul28   0:00 [ksoftirqd/1]
+root         16  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kworker/1:0H]
+root         17  0.0  0.0      0     0 ?        S    Jul28   0:26 [watchdog/2]
+root         18  0.0  0.0      0     0 ?        S    Jul28   0:23 [migration/2]
+root         19  0.0  0.0      0     0 ?        S    Jul28   0:40 [ksoftirqd/2]
+root         21  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kworker/2:0H]
+root         22  0.0  0.0      0     0 ?        S    Jul28   0:27 [watchdog/3]
+root         23  0.0  0.0      0     0 ?        S    Jul28   0:24 [migration/3]
+root         24  0.0  0.0      0     0 ?        S    Jul28   0:00 [ksoftirqd/3]
+root         26  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kworker/3:0H]
+root         28  0.0  0.0      0     0 ?        S    Jul28   0:00 [kdevtmpfs]
+root         29  0.0  0.0      0     0 ?        S<   Jul28   0:00 [netns]
+root         30  0.0  0.0      0     0 ?        S    Jul28   0:00 [xenwatch]
+root         31  0.0  0.0      0     0 ?        S    Jul28   5:05 [xenbus]
+root         33  0.0  0.0      0     0 ?        S    Jul28   0:02 [khungtaskd]
+root         34  0.0  0.0      0     0 ?        S<   Jul28   0:00 [writeback]
+root         35  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kintegrityd]
+root         36  0.0  0.0      0     0 ?        S<   Jul28   0:00 [bioset]
+root         37  0.0  0.0      0     0 ?        S<   Jul28   0:00 [bioset]
+root         38  0.0  0.0      0     0 ?        S<   Jul28   0:00 [bioset]
+root         39  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kblockd]
+root         41  0.0  0.0      0     0 ?        S<   Jul28   0:00 [md]
+root         42  0.0  0.0      0     0 ?        S<   Jul28   0:00 [edac-poller]
+root         43  0.0  0.0      0     0 ?        S<   Jul28   0:00 [watchdogd]
+root         49  0.0  0.0      0     0 ?        S    Jul28   0:00 [kswapd0]
+root         50  0.0  0.0      0     0 ?        SN   Jul28   0:00 [ksmd]
+root         51  0.0  0.0      0     0 ?        SN   Jul28   0:18 [khugepaged]
+root         52  0.0  0.0      0     0 ?        S<   Jul28   0:00 [crypto]
+root         60  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kthrotld]
+root         62  0.0  0.0      0     0 ?        S    Jul28   0:00 [khvcd]
+root         63  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kmpath_rdacd]
+root         64  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kaluad]
+root         65  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kpsmoused]
+root         66  0.0  0.0      0     0 ?        S<   Jul28   0:00 [ipv6_addrconf]
+root         80  0.0  0.0      0     0 ?        S<   Jul28   0:00 [deferwq]
+root        112  0.0  0.0      0     0 ?        S    Jul28   0:00 [kauditd]
+root        297  0.0  0.0      0     0 ?        S<   Jul28   0:00 [ata_sff]
+root        311  0.0  0.0      0     0 ?        S    Jul28   0:00 [scsi_eh_0]
+root        318  0.0  0.0      0     0 ?        S<   Jul28   0:00 [scsi_tmf_0]
+root        320  0.0  0.0      0     0 ?        S    Jul28   0:00 [scsi_eh_1]
+root        322  0.0  0.0      0     0 ?        S<   Jul28   0:00 [scsi_tmf_1]
+root        426  0.0  0.0      0     0 ?        S<   Jul28   0:00 [ttm_swap]
+root        472  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kworker/2:1H]
+root        513  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kdmflush]
+root        514  0.0  0.0      0     0 ?        S<   Jul28   0:00 [bioset]
+root        525  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kdmflush]
+root        526  0.0  0.0      0     0 ?        S<   Jul28   0:00 [bioset]
+root        539  0.0  0.0      0     0 ?        S<   Jul28   0:00 [bioset]
+root        540  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfsalloc]
+root        541  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs_mru_cache]
+root        542  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-buf/dm-0]
+root        543  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-data/dm-0]
+root        544  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-conv/dm-0]
+root        545  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-cil/dm-0]
+root        546  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-reclaim/dm-]
+root        547  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-log/dm-0]
+root        548  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-eofblocks/d]
+root        549  0.0  0.0      0     0 ?        S    Jul28   0:26 [xfsaild/dm-0]
+root        550  0.0  0.0      0     0 ?        S<   Jul28   1:34 [kworker/0:1H]
+root        587  0.0  0.0      0     0 ?        S<   Jul28   5:32 [kworker/1:1H]
+root        620  0.0  0.0  39084  5188 ?        Ss   Jul28   0:17 /usr/lib/systemd/systemd-journald
+root        644  0.0  0.0 190360  1380 ?        Ss   Jul28   0:00 /usr/sbin/lvmetad -f
+root        655  0.0  0.0  44536  1920 ?        Ss   Jul28   0:00 /usr/lib/systemd/systemd-udevd
+root       1007  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-buf/xvde1]
+root       1008  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-data/xvde1]
+root       1009  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-conv/xvde1]
+root       1010  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-cil/xvde1]
+root       1011  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-reclaim/xvd]
+root       1012  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-buf/xvda1]
+root       1013  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-log/xvde1]
+root       1014  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-data/xvda1]
+root       1015  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-eofblocks/x]
+root       1016  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-conv/xvda1]
+root       1017  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-cil/xvda1]
+root       1018  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-reclaim/xvd]
+root       1019  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-log/xvda1]
+root       1020  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-eofblocks/x]
+root       1021  0.0  0.0      0     0 ?        S    Jul28   1:49 [xfsaild/xvde1]
+root       1022  0.0  0.0      0     0 ?        S    Jul28   0:00 [xfsaild/xvda1]
+root       1024  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kdmflush]
+root       1025  0.0  0.0      0     0 ?        S<   Jul28   0:00 [bioset]
+root       1029  0.0  0.0      0     0 ?        S    Nov05   0:01 [kworker/3:0]
+root       1030  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-buf/dm-2]
+root       1031  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-data/dm-2]
+root       1032  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-conv/dm-2]
+root       1033  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-cil/dm-2]
+root       1034  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-reclaim/dm-]
+root       1035  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-log/dm-2]
+root       1036  0.0  0.0      0     0 ?        S<   Jul28   0:00 [xfs-eofblocks/d]
+root       1037  0.0  0.0      0     0 ?        S    Jul28   0:00 [xfsaild/dm-2]
+root       1057  0.0  0.0  55520   904 ?        S<sl Jul28   0:06 /sbin/auditd
+polkitd    1079  0.0  0.1 613000 11020 ?        Ssl  Jul28   0:04 /usr/lib/polkit-1/polkitd --no-debug
+dbus       1081  0.0  0.0  58236  2508 ?        Ss   Jul28   0:17 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       1085  0.0  0.0  26376  1784 ?        Ss   Jul28   0:14 /usr/lib/systemd/systemd-logind
+root       1088  0.0  0.0  21532  1272 ?        Ss   Jul28  11:46 /usr/sbin/irqbalance --foreground
+root       1089  0.0  0.0 228136  5708 ?        Ss   Jul28   0:00 /usr/sbin/abrtd -d -s
+root       1091  0.0  0.0 225800  4892 ?        Ss   Jul28   0:00 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Kernel panic - not syncing: Machine Check Exception: Machine check events logged divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xtD
+root       1094  0.0  0.0 126320  1676 ?        Ss   Jul28   0:10 /usr/sbin/crond -n
+root       1102  0.0  0.3 358560 29340 ?        Ssl  Jul28   0:02 /usr/bin/python -Es /usr/sbin/firewalld --nofork --nopid
+root       1113  0.0  0.1 547748  8828 ?        Ssl  Jul28   2:01 /usr/sbin/NetworkManager --no-daemon
+root       1359  0.0  0.0 107464  5500 ?        S    Jul28   0:00 /sbin/dhclient -d -q -sf /usr/libexec/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-4f9362a4-0f80-4c80-ae1e-e8956c6b0c0d-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+root       1553  0.0  0.1 274488  8504 ?        Ssl  Jul28   6:33 /usr/sbin/rsyslogd -n
+root       1557  0.0  0.2 573924 17120 ?        Ssl  Jul28  15:33 /usr/bin/python2 -Es /usr/sbin/tuned -l -P
+root       1580  0.0  0.0 110104   852 tty1     Ss+  Jul28   0:00 /sbin/agetty --noclear tty1 linux
+root       1581  0.0  0.0 110104   876 hvc0     Ss+  Jul28   0:00 /sbin/agetty --keep-baud 115200,38400,9600 hvc0 vt220
+root       1683  0.0  0.0   7932  2696 ?        SL   Jul28   0:00 /usr/bin/uvp-monitor
+root       1685  0.1  1.0 466716 82784 ?        SLl  Jul28 217:32 /usr/bin/uvp-monitor
+root       1907  0.0  0.0  90512  2292 ?        Ss   Jul28   0:25 /usr/libexec/postfix/master -w
+postfix    1909  0.0  0.0  90684  4292 ?        S    Jul28   0:04 qmgr -l -t unix -u
+root       2074  0.0  0.0      0     0 ?        S<   Jul28   0:00 [kworker/3:1H]
+root       9916  0.0  0.0      0     0 ?        S    02:00   0:00 [kworker/0:2]
+root      28357  0.0  0.0      0     0 ?        S    Nov02   0:03 [kworker/0:1]
+root      47544  0.0  0.0      0     0 ?        S    09:01   0:00 [kworker/3:2]
+postfix   67319  0.0  0.0  90616  4268 ?        S    12:31   0:00 pickup -l -t unix -u
+root      73829  0.0  0.0      0     0 ?        S    13:44   0:00 [kworker/2:0]
+root      74507  0.0  0.0      0     0 ?        S    13:51   0:00 [kworker/2:2]
+root      75114  0.0  0.0      0     0 ?        S    13:58   0:00 [kworker/1:2]
+root      75360  0.0  0.0      0     0 ?        S    14:01   0:00 [kworker/2:1]
+root      75582  0.1  0.0  33404  2892 ?        Ds   14:03   0:00 sshd: root@pts/0
+root      75589  0.0  0.0      0     0 ?        S    14:03   0:00 [kworker/1:1]
+root      75635  0.3  0.0 115556  2264 pts/0    Ss   14:04   0:00 -bash
+root      76155  0.0  0.0  51740  1744 pts/0    R+   14:05   0:00 ps aux
+mysql     94764  1.5 13.5 2664344 1079080 ?     Sl   Aug04 2091:28 /usr/sbin/mysqld --daemonize --pid-file=/var/run/mysqld/mysqld.pid
+root      96756  0.0  0.0  30808   964 ?        Ss   Nov01   0:00 /usr/sbin/sshd
+root     101778  0.0  0.0      0     0 ?        S    Nov01   0:00 [kworker/u256:1]
+ntp      102069  0.0  0.0  29944  2104 ?        Ss   Nov01   0:00 /usr/sbin/ntpd -u ntp:ntp -g
+root     107268  0.0  0.0      0     0 ?        S    Nov04   0:01 [kworker/u256:2]
+root     113527  0.0  0.0      0     0 ?        R    Nov05   0:14 [kworker/1:0]
+%fa94e86169494cffb0ae97198f916e2d%
+%c6b9af000d304f73810057505164eb5a%
+#bms-prompt# #!/bin/bash
+#bms-prompt# FTPSTATUS=`netstat -antp|grep -i "listen"|grep ":21\>"|wc -l`
+#bms-prompt# function Check_vsftpd
+> 
+> {
+> 
+> if [ -f /etc/vsftpd.conf ];
+> 
+>     then FTPCONF="/etc/vsftpd.conf";
+> 
+>         elif [ -f /etc/vsftpd/vsftpd.conf ];
+> 
+>         then FTPCONF="/etc/vsftpd/vsftpd.conf";
+> 
+> fi;
+> 
+> echo +++++++++vsftpd.conf+++++++++++++++++
+> 
+> cat $FTPCONF|egrep -v "^#|^$";
+> 
+> echo +++++++++vsftpd.conf end+++++++++++++
+> 
+> ls_recurse_enable=`cat $FTPCONF|egrep -v "^#"|grep -i "ls_recurse_enable=YES"|wc -l`;
+> 
+> local_umask=`cat $FTPCONF|grep -i "local_umask=022"|wc -l`;
+> 
+> anon_umask=`cat $FTPCONF|grep -i "anon_umask=022"|wc -l`;
+> 
+> VSFTPD_NO=$(expr $ls_recurse_enable + $local_umask + $anon_umask);
+> 
+> if [ $VSFTPD_NO -eq 3 ];
+> 
+>    then  echo "vsftpd is running.$FTPCONF is recommended.FTP check result:true.";
+> 
+>    else  echo "vsftpd is running.$FTPCONF is not recommended.FTP check result:false.";
+> 
+> fi;
+> 
+> unset FTPCONF VSFTPD_NO ls_recurse_enable local_umask anon_umask;
+> 
+> }
+#bms-prompt# function Check_pureftpd
+> 
+> {
+> 
+> echo +++++++++pure-ftpd.conf+++++++++++++++++;
+> 
+> cat /etc/pure-ftpd/pure-ftpd.conf|egrep -v "^#|^$";
+> 
+> echo +++++++++pure-ftpd.conf end+++++++++++++;
+> 
+> if [ `cat /etc/pure-ftpd/pure-ftpd.conf|grep -v "^#"|grep -i "Umask"|grep -i "177:077"|wc -l` -eq 1 ];
+> 
+>    then echo "pure-ftpd is running.pure-ftpd.conf is recommended.FTP check result:true.";
+> 
+>    else echo "pure-ftpd is running.pure-ftpd.conf is not recommended.FTP check result:false.";
+> 
+> fi;
+> 
+> }
+#bms-prompt# if [ $FTPSTATUS = 0 ];
+> 
+>      then  echo "FTP is not running.FTP check result:true.";
+> 
+>      else  if ([ `ps -ef|grep vsftpd|grep -v "grep"|wc -l` -ne 0 ] || [ `chkconfig --list |grep vsftp|grep -v "0:"|grep -w on|wc -l` -ne 0 ]);
+> 
+>               then Check_vsftpd;
+> 
+>               else Check_pureftpd;
+> 
+>            fi;
+> 
+> fi
+FTP is not running.FTP check result:true.
+#bms-prompt# unset FTPSTATUS;
+%c6b9af000d304f73810057505164eb5a%
+%553c2414dbea40339369a4066a363636%
+#bms-prompt# #!/bin/bash
+#bms-prompt# uname -a
+Linux host-192-168-67-13 3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+#bms-prompt# if [ -f /etc/SuSE-release ];
+> 
+>     then cat /etc/SuSE-release;
+> 
+> elif [ -f /etc/redhat-release ];
+> 
+>     then cat /etc/redhat-release;
+> 
+>     echo " redhat patch check result:true";
+> 
+> elif [ -f /etc/klinux-release ];
+> 
+>     then cat /etc/klinux-release;
+> 
+> fi
+CentOS Linux release 7.6.1810 (Core) 
+ redhat patch check result:true
+%553c2414dbea40339369a4066a363636%
+%db03bb4c3f614ccc838f173afdd8f6fa%
+#bms-prompt# awk -F: '($3 == 0) { print $1 }' /etc/passwd
+root
+#bms-prompt# echo "result="`awk -F: '($3 == 0) { print $1 }' /etc/passwd |wc -l`
+result=1
+%db03bb4c3f614ccc838f173afdd8f6fa%
+%3f657340a877490a9a6bd31b8e7fa7a0%1a526f6dc82f43e887a0bc066de025c6%8218aa49cb304c4398e913641bf6d628%
+#bms-prompt# #!/bin/bash
+#bms-prompt# if [ -s /etc/motd ];
+> 
+>     then echo "/etc/motd is not null./etc/motd check result:true";
+> 
+>     else echo "/etc/motd is null./etc/motd check result:false";
+> 
+> fi
+/etc/motd is not null./etc/motd check result:true
+#bms-prompt# if [ `netstat -antp|grep -i listen|grep ":22\>"|wc -l` != 0 ];
+> 
+>     then SSHBANNER=`grep -v "^#" /etc/ssh/sshd_config|grep -i banner|awk '{print $2}'`;
+> 
+>          if [[ -n $SSHBANNER && -s $SSHBANNER ]];
+> 
+>              then echo "sshd is running.sshd banner is not null.sshd banner check result:true";
+> 
+>              else echo "sshd is running.sshd banner is null.sshd banner check result:false";
+> 
+>          fi;
+> 
+>     else echo "sshd is not running.sshd banner check result:true";
+> 
+> fi
+sshd is running.sshd banner is not null.sshd banner check result:true
+#bms-prompt# if [ `netstat -antp|grep -i listen|grep ":23\>"|wc -l` != 0 ];
+> 
+>     then if [[ -s /etc/issue || -s /etc/issue.net ]];
+> 
+>              then echo "telnet is running.telnet banner is not null.telnet banner check result:true";
+> 
+>              else echo "telnet is running.telnet banner is null.telnet banner check result:false";
+> 
+>          fi;
+> 
+>     else echo "telnet is not running.telnet banner check result:true";
+> 
+> fi
+telnet is not running.telnet banner check result:true
+%3f657340a877490a9a6bd31b8e7fa7a0%1a526f6dc82f43e887a0bc066de025c6%8218aa49cb304c4398e913641bf6d628%
+%11c41ae335af46c3a4e57f91c7754383%
+#bms-prompt# #!/bin/bash
+#bms-prompt# FTPSTATUS=`netstat -antp|grep -i "listen"|grep ":21\>"|wc -l`;
+#bms-prompt# CHECKRESULT=0;
+#bms-prompt# function Check_vsftpconf
+> 
+> {
+> 
+>   if [ -f /etc/vsftpd.conf ];
+> 
+>   then
+> 
+>     FTPCONF="/etc/vsftpd.conf";
+> 
+>   elif [ -f /etc/vsftpd/vsftpd.conf ];
+> 
+>   then
+> 
+>     FTPCONF="/etc/vsftpd/vsftpd.conf";
+> 
+>   else
+> 
+>     echo "/etc/vsftpd.conf or /etc/vsftpd/vsftpd.conf is not exist,scripts exit now";
+> 
+>     return 0;
+> 
+>   fi;
+> 
+>   echo "-------$FTPCONF--------";
+> 
+>   cat $FTPCONF|grep -v "^#";
+> 
+>   CHECKRESULT=`cat $FTPCONF|grep -v "^#"|grep -i "anonymous_enable=NO"|wc -l`;
+> 
+> }
+#bms-prompt# if [ $FTPSTATUS = 0 ];
+> 
+> then
+> 
+>  echo "FTP is not running.FTP check result:true.";
+> 
+> else
+> 
+> {
+> 
+>     Check_vsftpconf;
+> 
+>  if [ $CHECKRESULT -ge 1 ];
+> 
+>   then echo "FTP is running.FTP check result:true.";
+> 
+>   else echo "FTP is running.FTP check result:false.";
+> 
+>  fi
+> 
+> }
+> 
+> fi
+FTP is not running.FTP check result:true.
+#bms-prompt# unset FTPSTATUS CHECKRESULT;
+%11c41ae335af46c3a4e57f91c7754383%
+%b0136b7e2e464075804eb6dc7e336749%
+#bms-prompt# awk -F: '( $2 == "" ) { print $1 }' /etc/shadow
+#bms-prompt# echo "result="`awk -F: '( $2 == "" ) { print $1 }' /etc/shadow |wc -l`
+result=0
+%b0136b7e2e464075804eb6dc7e336749%
+12BC4BC65BEB2A3204A03A6518084BC62A2B2A2B480332F3580A580A2A2B32F32A2B4803376B27F118085BEB180827F112BC580A2A32376B2A325CDC32F3480304A012BC32F34BC65A260FC4376B04A0180804A0
